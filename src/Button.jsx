@@ -1,10 +1,10 @@
 // DECLARATIVE
 import React from "react";
 
-export const Button = ({ text, color, handleClick }) => {
+export const Button = ({ children, color, handleClick }) => {
   return (
     <button onClick={handleClick} style={{ backgroundColor: color }}>
-      {text}
+      {children}
     </button>
   );
 };

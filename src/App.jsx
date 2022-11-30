@@ -12,8 +12,12 @@ function App() {
   return (
     <div className="App">
       <p> Hola, bienvenidos a todos!</p>
-      <Button text="Button 1" color="blue" handleClick={handleClick1} />
-      <Button text="Button 2" color="orange" handleClick={handleClick2} />
+      <Button color="blue" handleClick={handleClick1}>
+        Button 1
+      </Button>
+      <Button color="orange" handleClick={handleClick2}>
+        Button 2
+      </Button>
     </div>
   );
 }
